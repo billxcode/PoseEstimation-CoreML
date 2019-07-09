@@ -145,6 +145,9 @@ Hit the `⌘ + U` or click the `Build for Testing` icon.
 ![build-for-testing](resource/build-for-testing.png)
 
 
+# BUG FIX
+
+to be able using skeleton detection, make sure you write a model in `/Just-Point/models/mv2_cpm_fingertip_p2_1_7/models/mv2_cpm_batch-5_lr-0.001_gpus-1_224x224_experiments-mv2_cpm_mydataset_p2_spot1/mlmodel/` and put cpm model into it with new name like this `mv2_cpm_model_98000.mlmodel`. build and run the project. now you could test the apps
 
 ## See also
 
